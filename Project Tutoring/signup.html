@@ -1,28 +1,32 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Lynsey Rheeder Tutoring</title>
-    <link rel="stylesheet" href="style.css"
-</head>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Lynsey Rheeder Tutoring</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
 
-<body>
+    <body>
 
         <header>
-            <h3 align="left">Lynsey Rheeder Tutoring</h1>
-            
+            <h3 align="left">Lynsey Rheeder Tutoring</h3>
+            <a href="index.html" title="home">Home</a> 
+            <a href="aboutus_tutoring.html" title="about">About Me</a> 
+            <a href="signup.html" title="signup">Sign Up Now! </a> 
         </header>
+
+        <hr>
 
 <form action="index.cs" method="POST">
 
-    <label for="student_full_name">STUDENT first name:</label>
+    <label for="student_full_name">Child full name:</label>
     <input type="text" id="student_full_name" placeholder="Enter student full name" required><br><br>
     
-    <label for="student_surname">STUDENT surname:</label>
-    <input type="text" id="student_surname" placeholder="Enter student surname" required><br><br>
+    <!-- <label for="student_surname">STUDENT surname:</label>
+    <input type="text" id="student_surname" placeholder="Enter student surname" required><br><br> -->
 
-    <label for="student_grade">STUDENT grade:</label>
+    <!-- <label for="student_grade">STUDENT grade:</label>
     <select id="grade" required>
         <option value="1">1</option>
         <option value="2">2</option>
@@ -37,22 +41,25 @@
         <option value="11">11</option>
         <option value="12">12</option>
         <option value="homeschooled">Homeschooled</option>
-    </select><br><br>
+    </select><br><br> -->
 
-    <label for="gaurdian_full_name">GUARDIAN first name:</label>
-    <input type="text" id="student_full_name" placeholder="Enter your full name" required><br><br>
+    <label for="parent_full_name">Parent full name:</label>
+    <input type="text" id="parent_full_name" placeholder="Enter your full name" required><br><br>
+
+    <!-- <label for="gaurdian_full_name">GUARDIAN first name:</label>
+    <input type="text" id="student_full_name" placeholder="Enter your full name" required><br><br> -->
     
-    <label for="gaurdian_surname">GUARDIAN surname:</label>
-    <input type="text" id="student_surname" placeholder="Enter your surname" required><br><br>
-
-    <label for="email">PARENT/GUARDIAN email address:</label>
-    <input type="email" id="email" placeholder="Enter your email address" required><br><br>
+    <!-- <label for="gaurdian_surname">GUARDIAN surname:</label>
+    <input type="text" id="student_surname" placeholder="Enter your surname" required><br><br> -->
 
     <label for="phone">Phone number:</label>
     <input type="tell" id="phone" placeholder="Enter your number" minlength="10" maxlength="12" pattern="[0-9]{3}[0-9]{3}[0-9]{4}"><br><br>
 
-    <label for="required">What should we work on?</label><br>
-    <textarea id="required" placeholder="What to work on..." rows="10" cols="100" required></textarea><br><br>
+    <label for="email">Email address:</label>
+    <input type="email" id="email" placeholder="Enter your email address" required><br><br>
+
+    <!-- <label for="required">What should we work on?</label><br>
+    <textarea id="required" placeholder="What to work on..." rows="10" cols="100" required></textarea><br><br> -->
 
     <input type="reset"><br><br>
     <input type="submit">
