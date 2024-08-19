@@ -1,0 +1,133 @@
+
+
+/*---------*/
+/* Log In */
+/*---------*/
+
+.login {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-image: url(./wallpaperflare.com_wallpaper.jpg);
+  backdrop-filter: blur(100px);
+}
+
+input{
+  width: 92%;
+  margin-right: 10px;
+}
+
+login {
+  max-width: 350px;
+  width: 80%;
+  background: transparent;
+  backdrop-filter: blur(50px);
+  padding: 50px 50px 60px;
+  border-radius: 40px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, .1);
+  color: #fff;
+}
+
+login h2 {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 30px;
+  text-align: center;
+  color: #fff;
+}
+
+login .input-box {
+  margin-top: 20px;
+  color: #fff;
+}
+
+.input-box .field {
+  position: relative;
+  margin-top: 75%;
+  height: 40px;
+  background: transparent;
+  border: 2px solid #ddd;
+  outline: none;
+  border-radius: 40px;
+  padding: 15px;
+  font-size: 18px;
+  color: #fff;
+  margin-top: 20px;
+  transition: .5s;
+}
+
+.field:hover {
+  position: relative;
+  margin-top: 75%;
+  border: 2px solid #ddd;
+  outline: none;
+  border-radius: 40px;
+  padding: 15px;
+  font-size: 19px;
+  margin-top:20px;
+  transition: .5s;
+  background: #fff;
+  color: #000; 
+}
+
+.field::after {
+  background: #fff;
+  color: #000; 
+}
+
+.input-box .icon1 {
+  position: absolute;
+  right: 80px;
+  font-size: 16px;
+  top: 32%;
+}
+
+
+.input-box .icon2 {
+  position: absolute;
+  right: 80px;
+  font-size: 16px;
+  top: 51.4%;
+}
+
+.forgot-password{
+  text-align:right;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+
+.button1{
+  width: 100%;
+  height: 55px;
+  background: #fff;
+  border: none;
+  border-radius: 40px;
+  box-shadow: 0 10px 10px rgba(0, 0, 0, .1);
+  cursor: pointer;
+  font-size: 20px;
+  color: #000;
+  font-weight: 500;
+  margin-top: 50px;
+  transition: .5s;
+}
+
+.button1:hover {
+  background: #00FFFF;
+  color:  #fff;
+}
+
+.register {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  text-align:center
+} 
+
+/* .register p a{
+  font-weight: 600;
+  text-decoration: none;
+  color:#fff
+}
+
+.register-link p a:hover{
+  text-decoration: underline;
+} */
